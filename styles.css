@@ -1,7 +1,151 @@
-textarea {
-    width: 80%;
-    height: 10vh;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #F2C94C;
+    --secondary-color: #333333;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
+/* =======  Header section  ======= */
+.header {
+    background-color: var(--primary-color);
+}
+
+.hero-img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto auto;
+}
+
+.hero-img img {
+    width: 20rem;
+    border: 5px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.hero-img img:hover {
+    transform: rotate(360deg);
+    transition: all 0.7s ease-in-out;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    padding: 0rem 1rem 1rem 1rem;
+    color: var(--secondary-color);
+    font-weight: 100;
+}
+
+/* =======  Main section  =======*/
+main {
     display: block;
-    margin: 1rem;
+    margin: 2rem auto;
     padding: 1rem;
+    max-width: 800px;
+}
+
+.paragraph {
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 0.5rem 0rem;
+}
+
+.phrase {
+    font-size: 1.5rem;
+    color: #5e5e5e;
+    text-align: left;
+    margin: 0.5rem 0rem;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: inherit;
+    border: 5px solid #d0d6dc;
+    border-radius: 5px;
+}
+
+
+textarea[placeholder="Put your message here which you want to convert to banana language"] {
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+}
+
+textarea[placeholder="Output will be shown here"] {
+    font-family: 'Kalam', cursive;
+    font-style: italic;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+.reset-text {
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 3rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+#output-text {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 1rem;
+    font-size: large;
+    font-family: inherit;
+    border: 5px solid #d0d6dc;
+    border-radius: 5px;
+}
+
+.output-txt {
+    margin: 1rem;
+}
+
+/* =======  footer section  =======*/
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    min-height: 15vh;
+    margin: 0rem auto;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+    padding: 0rem 35rem;
 }
