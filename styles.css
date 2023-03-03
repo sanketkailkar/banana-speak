@@ -118,7 +118,7 @@ button {
     margin: 1rem;
 }
 
-/* =======  footer section  =======*/
+/* =======  Footer section  =======*/
 footer {
     position: fixed;
     bottom: 0;
@@ -139,4 +139,27 @@ footer h3 {
 footer p {
     font-size: 1.6rem;
     padding: 0rem 35rem;
+}
+
+/* =======  Responsive  ======= */
+@media screen and (max-width: 1200px) {
+    footer p {
+        padding: 0rem 25rem
+    }
+}
+
+@media screen and (max-width: 900px) {
+    footer p {
+        padding: 0rem 1rem
+    }
+}
+
+@media screen and (max-width: 760px) {
+    footer p {
+        padding: 0rem 1rem
+    }
+
+    footer {
+        position: relative;
+    }
 }
