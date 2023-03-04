@@ -12,7 +12,6 @@
 html {
     font-size: 10px;
     font-family: 'Kalam', cursive;
-    font-style: italic;
     color: var(--secondary-color);
     text-align: center;
 }
