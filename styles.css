@@ -84,12 +84,10 @@ textarea {
 
 textarea[placeholder="Put your message here which you want to convert to banana language"] {
     font-family: 'Kalam', cursive;
-    font-style: italic;
 }
 
 textarea[placeholder="Output will be shown here"] {
     font-family: 'Kalam', cursive;
-    font-style: italic;
 }
 
 button {
