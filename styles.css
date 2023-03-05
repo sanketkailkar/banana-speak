@@ -51,7 +51,7 @@ html {
 /* =======  Main section  =======*/
 main {
     display: block;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 1rem;
     max-width: 800px;
 }
@@ -59,7 +59,6 @@ main {
 .paragraph {
     font-size: 1.8rem;
     text-align: left;
-    margin: 0.5rem 0rem;
 }
 
 .phrase {
@@ -93,7 +92,7 @@ textarea[placeholder="Output will be shown here"] {
 button {
     background-color: var(--primary-color);
     border: none;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
     padding: 1rem 3rem;
     font-family: 'Kalam', cursive;
     font-size: large;
