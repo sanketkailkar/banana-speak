@@ -59,20 +59,21 @@ main {
 .paragraph {
     font-size: 1.8rem;
     text-align: left;
+    margin: 1rem 0rem;
 }
 
 .phrase {
     font-size: 1.5rem;
     color: #5e5e5e;
     text-align: left;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0rem 0rem;
 }
 
 textarea {
     box-sizing: border-box;
     display: block;
     width: 100%;
-    min-height: 15vh;
+    min-height: 10vh;
     margin-top: 1rem;
     font-size: large;
     font-family: inherit;
@@ -92,7 +93,7 @@ textarea[placeholder="Output will be shown here"] {
 button {
     background-color: var(--primary-color);
     border: none;
-    margin: 1rem 1rem;
+    margin: 1rem 1rem 0.5rem;
     padding: 1rem 3rem;
     font-family: 'Kalam', cursive;
     font-size: large;
