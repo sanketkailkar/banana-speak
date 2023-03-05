@@ -93,10 +93,15 @@ textarea[placeholder="Output will be shown here"] {
 button {
     background-color: var(--primary-color);
     border: none;
-    margin: 1rem 0rem;
+    margin: 2rem 1rem;
     padding: 1rem 3rem;
     font-family: 'Kalam', cursive;
     font-size: large;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
 
 #output-text {
