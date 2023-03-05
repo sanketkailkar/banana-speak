@@ -71,9 +71,9 @@ main {
 
 textarea {
     box-sizing: border-box;
-    display: block;
+    display: flex;
     width: 100%;
-    min-height: 10vh;
+    min-height: 15vh;
     margin-top: 1rem;
     font-size: large;
     font-family: inherit;
@@ -145,18 +145,30 @@ footer p {
 
 /* =======  Responsive  ======= */
 @media screen and (max-width: 1200px) {
+    textarea {
+        min-height: 10vh;
+    }
+
     footer p {
         padding: 0rem 25rem
     }
 }
 
 @media screen and (max-width: 900px) {
+    textarea {
+        min-height: 10vh;
+    }
+
     footer p {
         padding: 0rem 1rem
     }
 }
 
 @media screen and (max-width: 760px) {
+    textarea {
+        min-height: 10vh;
+    }
+
     footer p {
         padding: 0rem 1rem
     }
